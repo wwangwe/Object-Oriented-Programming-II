@@ -1,7 +1,7 @@
 # Python3
 ### Introduction
 _**Python** is a general purpose, dynamic, high level, and interpreted programming language._\
-![Python 3](https://i.imgur.com/Dm6ice0.png =500x200)
+<img src="https://i.imgur.com/Dm6ice0.png" alt="Python 3" width="600" height="200"/>\
 It supports Object Oriented programming approach to develop applications. It is simple and easy to learn and provides lots of high-level data structures.\
 Python is easy to learn yet powerful and versatile scripting language, which makes it attractive for Application Development.\
 Python supports multiple programming pattern, including **object-oriented**, imperative, and functional or procedural programming styles.\
@@ -9,7 +9,7 @@ In this case, we will focus on _Object Oriented_ programming pattern.
 
 ### New Features (3.8)
 Python 3.8 came with some pretty exciting features. Regardless of whether or not these new features will be used or not is up to the programmer, but I think it will be important to get familiar with the new features.\
-The following are some of my favorite features:\
+The following are some of my favorite features:
 1. The Walrus Operand `:=`
 2. Positional only parameters `def func(x,y,f=5,/):`
 3. Multiprocessing shared memory
@@ -17,9 +17,9 @@ The following are some of my favorite features:\
 5. Performance Improvements (To raw Python itself)
 6. Reversible Dictionaries
 7. Typing Module Rework
-7. F-String Debugging Support `print(f'...{x}..')`
-Which all are welcome advancements in the Python world, especially for those working with large data-sets and tampering with memory limits.\
-4 Min More Read [HERE](https://towardsdatascience.com/my-favorite-new-features-in-python-3-8-a95d7a0a31c9)
+7. F-String Debugging Support `print(f'...{x}..')`\
+All the features are welcome advancements in the Python world, especially for those working with large data-sets and tampering with memory limits.\
+**4 Min More Read** [HERE](https://towardsdatascience.com/my-favorite-new-features-in-python-3-8-a95d7a0a31c9)
 
 ### Installation
 To start working with python3, one needs access to the _Python Interpreter_, this can be accomplished in four different ways depending on the operating system:
@@ -39,7 +39,7 @@ _Note that windows distributions do not ship with python._
 - Once you have chosen and downloaded an installer, simply run it by double-clicking on the downloaded file.
 ![Python Installer](./Images/Python_Windows_Installer.png)
 - You want to be sure to check the box that says:
-- [x]Add Python 3.x to PATH
+- [x] Add Python 3.x to PATH
 as shown to ensure that the interpreter will be placed in your execution path.\
 - Then just click Install Now. That should be all there is to it. A few minutes later you should have a working Python 3 installation on your system.
 
@@ -70,12 +70,12 @@ Fedora has a roadmap to switch to Python 3 as the default Python published [here
 `~$ sudo dnf install python36`
 
 ##### Arch Linux
-Arch Linux is fairly aggressive about keeping up with Python releases. It is likely you already have the latest version. If not, you can use this command:
+Arch Linux is fairly aggressive about keeping up with Python releases. It is likely you already have the latest version. If not, you can use this command:\
 `~$ packman -S python`
 
 ##### Debian
 Debian, generally does not install the sudo command by default. To install it, you’ll need to do the following before you carry out the Compiling Python From Source.\
-Below is how to do that:\
+Below is how to do that:
 ```
 ~$ su
 ~$ apt-get install sudo
@@ -89,13 +89,14 @@ After that, open the /etc/sudoers file using the sudo vim command (or your favor
 #### Android/iOS
 If you have an Android tablet or phone and want to practice Python on the go, there are a several options available.\
 The one that most reliably supports Python 3.6 is **Pydroid 3**.\
-Pydroid 3 features an interpreter you can use for REPL sessions, and it also provides the ability to edit, save, and execute Python code.\
+Pydroid 3 features an interpreter you can use for REPL sessions, and it also provides the ability to edit, save, and execute Python code.
 
 **Options:**
 - [Pydroid 3](play.google.com/store/apps/details?id=ru.iiec.pydroid3)
 - [QPython 3L](play.google.com/store/apps/details?id=org.qpython.qpy3)
 - [Pyonic Python3 Interpreter](play.google.com/store/apps/details?id=net.inclem.pyonicinterpreter3)
-_Learning Versions_ (Personal favorites)\
+
+**_Learning Versions_ (Personal favorites)**
 - [Data Camp](play.google.com/store/apps/details?id=com.datacamp)
 - [Sololearn](play.google.com/store/apps/details?id=com.sololearn)
 
