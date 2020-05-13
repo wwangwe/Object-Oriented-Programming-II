@@ -1,4 +1,6 @@
 # Python3
+[![Real Python](https://img.shields.io/badge/Real-Python-blue)](https://realpython.com/installing-python)
+[![Python.org](https://img.shields.io/badge/Python-Documentation-yellow)](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 ### Introduction
 _**Python** is a general purpose, dynamic, high level, and interpreted programming language._\
 <img src="https://i.imgur.com/Dm6ice0.png" alt="Python 3" width="600" height="200"/>\
