@@ -18,7 +18,7 @@ A variable name can be either of the following:
     - A word with an underscores eg. `is_it_love = False`  
     - A word with a letter eg. `RG45 = "Ethernet Cable"`  
         _**Note that a number can only appear in the middle or end of a variable name, not a the beginning.**_  
-        _Example:_\
+        _Example:_  
 
 ```python
 
