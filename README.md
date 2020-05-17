@@ -42,13 +42,13 @@ _Note that windows distributions do not ship with python._
 ![Python Installer](./Images/Python_Windows_Installer.png)
 - You want to be sure to check the box that says:
 - [x] Add Python 3.x to PATH
-as shown to ensure that the interpreter will be placed in your execution path.\
+as shown to ensure that the interpreter will be placed in your execution path.
 - Then just click Install Now. That should be all there is to it. A few minutes later you should have a working Python 3 installation on your system.
 
 #### Linux
 _Note that most if not all linux distributions come with python alredy installed._
 It is however most likely that it is not the latest version(Python 2).\
-To find out which version is installed, run either of the following commands:\
+To find out which version is installed, run either of the following commands:
 1. `python --version`
 2. `python2 --version`
 3. `python3 --version`
