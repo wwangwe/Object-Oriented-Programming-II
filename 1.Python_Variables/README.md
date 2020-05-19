@@ -2,6 +2,8 @@
 
 ## Introduction
 
+> _Submitted to @MRichardN_  
+
 **Variables** are the names you give to computer memory locations which are used to store values in a **Computer Program**.  
 Unlike most programming languages, Python is **Dynamically typed** and therefore there _values_ and _data types_ can be changed during _runtime_.
 
