@@ -2,6 +2,8 @@
 
 > _Submitted to @MRichardN_  
 
+## 1.0 Introduction
+
 An operator is a symbol that tells the compiler to perform specific mathematical or logical manipulations. The values that an operator acts on are called __Operands__.  
 > _Example:_  
 `y = m*x + c`  
@@ -9,7 +11,7 @@ An operator is a symbol that tells the compiler to perform specific mathematical
 while  
 `=, *` and `+` are the Operators.  
 
-## Arithmetic Operators  
+### 1.1 Arithmetic Operators  
 
 Arithmetic operators take numerical values (either literals or variables) as their operands and return a single numerical value.  
 The basic arithmetic operators are Addition ( + ), Subtraction ( - ), Multiplication ( * ) and Division ( / ).  
@@ -36,7 +38,7 @@ __Note__ that  The result of standard division ( / ) is always a float, even if 
 
 View more examples in the Python file in this directory.  
 
-## Assignment Operators  
+### 1.2 Assignment Operators  
 
 A single equal sign (=) is used to assign a value to a variable. The on its left is the variable name while on its
 right is the value or expression of the variable.
@@ -52,7 +54,7 @@ Example:
 
 View more examples in the Python file in this directory.
 
-## Comparison Operators
+### 1.3 Comparison Operators
 
 Comparison Operators compare values and operations and return _True_ or _False_.  
 The following table lists the arithmetic operators supported by Python:  
@@ -67,7 +69,7 @@ The following table lists the arithmetic operators supported by Python:
 
 View more examples in the Python file in this directory.
 
-## Logical Opeartors  
+### 1.4 Logical Opeartors  
 
 Logical operators in Python are used for conditional statements; they evaluate to and return _True_ or _False_. Common logical operators include
 __AND__, __OR__, and __NOT__.  
@@ -99,7 +101,7 @@ They following conditions apply to logical operators:
 
 View more examples in the Python file in this directory.
 
-## Membership Operators  
+### 1.5 Membership Operators  
 
 Membership operators test for membership in a sequence such as __lists, strings__ or __tuples__.  
 There are two membership operators that are used in Python. (**_in, not in_**). It gives the result based on whether or not the variable is
@@ -119,7 +121,7 @@ Example;
 
 View more examples in the Python file in this directory.
 
-## Bitwise Operators  
+### 1.6 Bitwise Operators  
 
 Bitwise operators treat operands as sequences of binary digits and operate on them bit by bit.  
 The following operators are supported:
@@ -133,3 +135,29 @@ The following operators are supported:
 |   <<      | Shift Left                 |  y << n     | Each bit is shifted left n places                                  |
 
 View more examples in the Python file in this directory.
+
+## 2.0 Operator precedence
+
+The following table summarizes the operator precedence in Python, from lowest precedence (least binding) to highest precedence (most binding).  
+Operators in the same box have the same precedence. Operators in the same box group left to right (except for exponentiation, which groups from right to left).
+
+| Operator                                     | Description                                                                  |
+|----------------------------------------------|------------------------------------------------------------------------------|
+| :=                                           | Assignment expression                                                        |
+| lambda                                       | Lambda expression                                                            |
+| if – else                                    | Conditional expression                                                       |
+| or                                           | Boolean OR                                                                   |
+| and                                          | Boolean AND                                                                  |
+| not x                                        | Boolean NOT                                                                  |
+| in, not in, is, is not, <, <=, >, >=, !=, == | Comparisons, including membership tests and identity tests                   |
+| &#124;                                       | Bitwise OR                                                                   |
+| ^                                            | Bitwise XOR                                                                  |
+| &                                            | Bitwise AND                                                                  |
+| <<, >>                                       | Shifts                                                                       |
+| +, -                                         | Addition and subtraction                                                     |
+| *, @, /, //, %                               | Multiplication, matrix multiplication, division, floor division, remainder 5 |
+| +x, -x, ~x                                   | Positive, negative, bitwise NOT                                              |
+| **                                           | Exponentiation 6                                                             |
+| await x                                      | Await expression                                                             |
+| x[index], x[index:index], x(arguments...), x.attribute | Subscription, slicing, call, attribute reference                   |
+| (expressions...), [expressions...], {key: value...}, {expressions...} | Binding or parenthesized expression, list display, dictionary display, set display|
