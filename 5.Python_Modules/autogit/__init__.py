@@ -21,5 +21,5 @@ Modules:
         It runs a 'git pull' prior to staging to avoid 'merge conflicts'
         After 'push'ing, it shows the 'status' of the repo.
 
-Made with love Tim
+Made with love by Tim
 """
